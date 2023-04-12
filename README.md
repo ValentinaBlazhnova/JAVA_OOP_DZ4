@@ -6,9 +6,9 @@
 Добавить метод определения минимального щита члена команды в команде (Не сделано), доделать:
 В Warrior сделать геттер на поле S shieldable , и циклом найти минимум
 
-for (T item : personages) {
-if (item instanceof Warrior) {
-if (((Warrior)item).getShield().protection() < min) {
-min = ((Warrior)item).getShield().protection();
+for (T item : personages) { (Новая строка)
+if (item instanceof Warrior) { (Новая строка)
+if (((Warrior)item).getShield().protection() < min) { (Новая строка)
+min = ((Warrior)item).getShield().protection(); (Новая строка)
 }
 }
